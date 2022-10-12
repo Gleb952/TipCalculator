@@ -5,3 +5,15 @@ body{
     color: white;
     background: linear-gradient(to right, rgb(198, 10, 255), rgb(236, 213, 0));
 }
+#mainBlock{
+    display: block;
+    width: 40%;
+    margin: 0 auto;
+    background: white;
+    color: black;
+    padding: 1rem;
+
+}
+.title{
+    font-size: 30px;
+}
