@@ -3,4 +3,5 @@ body{
     font-family: 'Courier New';
     text-align: center;
     color: white;
+    background: linear-gradient(to right, rgb(198, 10, 255), rgb(236, 213, 0));
 }
