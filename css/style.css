@@ -1,19 +1,42 @@
-body{
+body {
     margin-top: 300px;
     font-family: 'Courier New';
     text-align: center;
     color: white;
-    background: linear-gradient(to right, rgb(198, 10, 255), rgb(236, 213, 0));
+    background: linear-gradient(to right, rgb(255, 10, 10), rgb(236, 213, 0));
 }
-#mainBlock{
+
+#mainBlock {
     display: block;
     width: 40%;
     margin: 0 auto;
     background: white;
     color: black;
     padding: 1rem;
-
+    border-radius: 0.5rem;
 }
-.title{
+
+#title {
     font-size: 30px;
+}
+.inputTip{
+    width: 70%;
+    padding: 5px;
+    background-color: whitesmoke;
+    border: 1px solid lightgray;
+    color: black;
+}
+
+
+
+
+#buttonClick {
+    margin-top: 1rem;
+    background-color: whitesmoke;
+    color: black;
+    border: 1px solid lightgray;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 8px;
 }
